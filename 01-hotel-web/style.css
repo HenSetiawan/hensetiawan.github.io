@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+
+
+.navbar-brand,.nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+p,footer li{
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    color:#999999;
+}
+
+.sign-up:hover{
+    background-color: white !important;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler{
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+
+.hero-image{
+    background-color: #E6F4FF;
+    position: relative;
+}
+
+.hero-content p{
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    color: #999999;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.search-component input:focus{
+    outline: none;
+}
+
+.search-component button{
+    background-color: #64BDFF;
+    color: white;
+    outline: none;
+    border-radius: 2px;
+    border: none;
+}
+
+.search-component input{
+    border: none;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.card-hotel>img{
+    border-radius: 10px;
+}
+
+.card-hotel p{
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    color:#999999;
+}
+
+
+.btn-explore{
+    border-radius: 2px;
+    background: #64BDFF;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.resort-component h2{
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+.card-hotel,.card-product{
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.card-hotel h3{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.product-component h2{
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.card-product h3{
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.card-testimonial{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    text-align: center;
+}
+
+.testimonial-component .card{
+    border: none !important;
+}
+
+.testimonial-profile{
+    background-color: #FFD12D;
+}
+
+footer{
+    text-align: center;
+}
+footer h3{
+    font-weight: 500;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* dekstop */
+@media only screen and (min-width: 768px) {
+
+/*  */
+
+.hero-content h2{
+    font-weight: 600;
+    line-height: 60px;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 200px;
+}
+
+.hero-image{
+    top: 80px;
+}
+
+
+.resort-component{
+    margin-top: 70px;
+}
+.search-component{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.search-component form{
+    position: relative;
+    top: -8px;
+    font-family: 'Poppins', sans-serif;
+    color: #999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-component input{
+    border: none;
+    font-weight: 300;
+    cursor: pointer;
+    flex: 3;
+}
+
+.search-component button{
+    background-color: #64BDFF;
+    color: white;
+    outline: none;
+    border-radius: 2px;
+    border: none;
+    flex: 1;
+}
+
+.testimonial-component .card{
+    text-align: left !important;
+}
+
+.card-testimonial,footer{
+    text-align: left;
+}
+.hero-image img{
+    position: absolute;
+    top: -20%;
+    width: 90%;
+    right: 0;
+    height: 120%;
+}
+
+footer{
+    margin-top: 100px !important;
+}
+
+}

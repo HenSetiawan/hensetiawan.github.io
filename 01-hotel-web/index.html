@@ -1,12 +1,294 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello World</h1>
-    <p>hotel</p>
-</body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <link rel="stylesheet" href="/style.css">
+    <title>Nginep</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+          <a class="navbar-brand" href="#">Nginep</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Featured</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="sign-up btn btn-sm btn-outline-secondary mt-1 nav-link" href="#">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- end nabvar -->
+
+      <div class="container mt-2" id="hero">
+          <div class="row">
+              <section class="col-md-6 hero-content">
+                  <div class="row">
+                    <div class="col-md-12">
+                    <h2>
+                        Book your next holiday in just a few clicks
+                    </h2>
+                    <p>With Nginep, you can get recommendations for the best hotels and resorts, at low prices and locations close to tourist sites.</p>
+                    </div>
+                    <div class="col-md-12 mt-4 search-component mx-auto">
+                        <p>destination</p>
+                        <form action="" method="POST">
+                            <input type="search"  id="search" placeholder="Jakarta, Indonesia" autocomplete="off" autofocus>
+                            <button type="submit" class="btn-sm ms-auto">Explore</button>
+                        </form>
+                    </div>
+                  </div>
+              </section>
+              <section class="col-md-6 hero-image mt-5">
+                  <img src="./images/joel-filipe.png" alt="apart" class="img-fluid">
+              </section>
+          </div>
+      </div>
+
+      <div class="container mt-5">
+            <div class="row">
+                <section class="col-md-12 resort-component">
+                    <h2 class="text-center">Explore more Hotel & Resort</h2>
+                    <p class="text-center">Browse for the best lodging in Nginep</p>
+                </section>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-3">
+                  <div class="card card-hotel">
+                    <img src="./images/royal-hotel.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-text">Royal Hotel</h3>
+                      <p>Helsinki, Finlandia</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card card-hotel">
+                    <img src="./images/adden-hotel.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-text">Adden Hotel</h3>
+                      <p>Kopenhagen, Denmark</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card card-hotel">
+                    <img src="./images/vertix-hotel.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-text">Vertix Hotel</h3>
+                      <p>Amsterdam, Netherland</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card card-hotel">
+                    <img src="./images/rodisson-hotel.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-text">Rodisson Hotel</h3>
+                      <p>Moscow, Rusia</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+              <div class="col text-center">
+                <button type="button" class="btn btn-sm text-center btn-explore">Explore More</button>
+              </div>
+            </div>
+      </div>
+
+      <div class="container product-component">
+        <div class="row mt-5">
+          <div class="col-md-12 text-center ">
+            <h2>Why nginep?</h2>
+            <p>Several reasons for using nginep</p>
+          </div>
+        </div>
+      <div class="row mt-3">
+        <div class="col-lg-4">
+          <div class="card card-product">
+            <img src="./images/hotel listed.svg" class="card-img-top img-fluid rounded-circle" alt="hotel listed">
+            <div class="card-body">
+              <h3 class="card-text text-center">5000+ Lodgings</h3>
+              <p>More than 5000 lodgings listed on nginep</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card card-product">
+            <img src="./images//cities.svg" class="card-img-top img-fluid rounded-circle" alt="city">
+            <div class="card-body">
+              <h3 class="card-text text-center">250+ City</h3>
+              <p>There are registered lodgings with stays in more than 250 cities in the world</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card card-product">
+            <img src="./images/money guaranteed.svg" class="card-img-top img-fluid rounded-circle" alt="money">
+            <div class="card-body">
+              <h3 class="card-text text-center">Guaranteed</h3>
+              <p>money back guarantee if you experience that lodging does not match what is stated in the photo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+      <div class="container testimonial-component">
+        <div class="row mt-5">
+          <div class="col text-center">
+            <h2>Testimonial</h2>
+            <p>Testimonials from users who have used the Nginep platform</p>
+          </div>
+        </div>
+
+        <div class="row mb-5 mt-3">
+            <div class="col-md-4 card-testimonial">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/pretty-smiling.png" alt="Testimonial" class="testimonial-profile rounded-circle ">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Ailisa Cordelia</h5>
+                      <p class="card-text">Traveler</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <section class="rating">
+                <div class="star">
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                </div>
+                <p>I got perfect service from the hotel when booking using this platform</p>
+              </section>
+            </div>
+
+            <div class="col-md-4 card-testimonial">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/young-beautiful.png" alt="Testimonial" class="testimonial-profile rounded-circle ">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Kasandra Tydfill</h5>
+                      <p class="card-text">Traveler</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <section class="rating">
+                <div class="star">
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-secondary"></i>
+                </div>
+                <p>I got perfect service from the hotel when booking using this platform</p>
+              </section>
+            </div>
+
+            <div class="col-md-4 card-testimonial">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/pexels-andrea.png" alt="Testimonial" class="testimonial-profile rounded-circle ">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Kyler Wyle</h5>
+                      <p class="card-text">Traveler</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <section class="rating">
+                <div class="star">
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-secondary"></i>
+                </div>
+                <p>I got perfect service from the hotel when booking using this platform</p>
+              </section>
+            </div>
+        </div>
+      </div>
+
+
+      <footer class="container mb-2 ">
+        <div class="row">
+          <div class="col-md-3">
+              <h4>Nginep</h4>
+              <p>Nginep is a platform that provides online lodging booking services</p>
+          </div>
+          <div class="col-md-3 ms-auto">
+            <h4>About</h4>
+            <ul class="list-unstyled">
+              <a href="" class="text-decoration-none"><li>About Nginep</li></a> 
+              <a href="" class="text-decoration-none"><li>Career</li></a>
+              <a href="" class="text-decoration-none"><li>Privacy Policy</li></a>
+              <a href="" class="text-decoration-none"><li>FAQ</li></a>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4>Social media</h4>
+            <ul class="list-unstyled">
+              <a href="" class="text-decoration-none"><li>Instagram</li></a> 
+              <a href="" class="text-decoration-none"><li>Twitter</li></a>
+              <a href="" class="text-decoration-none"><li>Tiktok</li></a>
+              <a href="" class="text-decoration-none"><li>Youtube</li></a>
+            </ul>
+          </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col">
+            <p class="text-center">Design by Rendy Vickriansyah</p>
+          </div>
+        </div>
+      </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+  </body>
 </html>

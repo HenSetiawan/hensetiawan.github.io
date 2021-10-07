@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  background-color: #d6e1ff;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  margin: 25px auto;
+  width: 30%;
+  border-radius: 12px;
+}
+
+.container img {
+  width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+main {
+  background-color: #fff;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 24px;
+  margin-top: -5px;
+}
+
+.order-summary {
+  margin-top: -5px;
+  padding: 15px;
+}
+
+.order-summary h1 {
+  margin-bottom: 8px;
+}
+
+.order-summary p {
+  color: rgb(146, 143, 143);
+  font-size: 13px;
+}
+
+.plan {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  padding: 12px;
+  background-color: #efeff1;
+  border-radius: 8px;
+}
+
+.plan h2 {
+  font-size: 16px;
+}
+
+.plan img {
+  width: 40px;
+  height: 40px;
+}
+
+.plan p {
+  color: rgb(146, 143, 143);
+  font-size: 13px;
+}
+
+.btn-proceed {
+  width: 80%;
+  margin-top: 16px;
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-radius: 8px;
+  height: 35px;
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif !important;
+  box-shadow: 8px 12px 12px #d6e1ff;
+  cursor: pointer;
+}
+
+.btn-cancel{
+    background-color: white;
+    border: none;
+    margin-top: 18px;
+    color: hsl(228, 45%, 44%);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

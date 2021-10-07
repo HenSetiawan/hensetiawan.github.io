@@ -85,13 +85,13 @@ main {
   cursor: pointer;
 }
 
-.btn-cancel{
-    background-color: white;
-    border: none;
-    margin-top: 18px;
-    color: hsl(228, 45%, 44%);
-    font-size: 14px;
-    cursor: pointer;
+.btn-cancel {
+  background-color: white;
+  border: none;
+  margin-top: 18px;
+  color: hsl(228, 45%, 44%);
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .attribution {
@@ -100,4 +100,14 @@ main {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    text-align: center;
+    margin: 65px auto;
+    width: 90%;
+    border-radius: 12px;
+  }
+ 
 }

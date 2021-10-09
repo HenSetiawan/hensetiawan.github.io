@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@800&display=swap");
+
+.nav-item {
+  margin-left: 35px;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+}
+
+.nav-link.language {
+  border: none;
+  background-color: #fff;
+}
+
+.navbar-light .navbar-toggler {
+  border: none !important;
+}
+
+main.container h1 {
+  font-family: "Overpass", sans-serif;
+}
+
+main.container p {
+  font-family: "Nunito", sans-serif;
+  color: #444b59;
+  font-weight: 400;
+}
+
+main.container a {
+  text-decoration: none;
+  color: #8699da;
+}
+
+main.container input {
+  display: inline-block;
+  border-radius: 16px;
+  border: 2px solid #789ade;
+}
+
+.form-group {
+  width: 80% !important;
+}
+
+.input-label {
+  font-size: 16px !important;
+  margin-left: 6px !important;
+}
+
+p.remember-me,
+a.forgot-password {
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+}
+
+::placeholder {
+  color: #c8d3f9;
+  font-size: 12px;
+}
+
+main .hero-image {
+  display: inline-block;
+}
+
+.round {
+  margin-right: 4px;
+  border: 1px solid #789ade;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50% !important;
+}
+
+.round label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+}
+
+input[type="checkbox"] {
+  visibility: hidden;
+}
+
+input[type="checkbox"]:checked + .round label {
+  background-color: #8699da;
+  border-color: #8699da;
+}
+
+input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+
+.btn-login {
+  background-color: #8699da;
+  color: white;
+  font-family: "Nunito", "sans-serif";
+  border-radius: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-group {
+    width: 90% !important;
+    margin: auto;
+  }
+
+}

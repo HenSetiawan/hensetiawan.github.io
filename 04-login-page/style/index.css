@@ -104,10 +104,25 @@ input[type="checkbox"]:checked + label:after {
   border-radius: 16px;
 }
 
+.social-login-container {
+  display: flex;
+  justify-content: center;
+}
+
+.social-login {
+  border: 2px solid #789ade;
+  padding: 8px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  height: 50px !important;
+  width: 50px !important;
+  cursor: pointer;
+}
+
+
 @media only screen and (max-width: 600px) {
   .form-group {
     width: 90% !important;
     margin: auto;
   }
-
 }

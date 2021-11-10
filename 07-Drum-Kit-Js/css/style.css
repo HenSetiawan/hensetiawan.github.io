@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://i.imgur.com/b9r5sEL.jpg);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.keys{
+    display: flex;
+    max-width: 950px;
+    margin: 250px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.key{
+  border: 3px solid black;
+  flex-basis: 10%;
+  color: white;
+  background: rgba(0,0,0,0.8);
+  text-shadow: 0 0 .5rem black;
+  transition: all .07s ease;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+  }
+  
+.sound {
+font-size: 0.8rem;
+text-transform: uppercase;
+letter-spacing: .1rem;
+color: #ffc600;
+}
+
+.playing {
+transform: scale(1.1);
+border-color: #ffc600;
+box-shadow: 0 0 1rem #ffc600;
+}

@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 90%;
+  margin: 25px auto;
+}
+
+.img-responsive {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+
+.input-text {
+  margin: 25px auto;
+  display: block;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.keyword {
+  width: 50%;
+}
+
+.row {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.row section {
+  width: 50%;
+}
+
+.box {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  margin: 15px 5%;
+  padding: 10px;
+}
+
+.box-title {
+  background: linear-gradient(
+    180deg,
+    transparent,
+    transparent 50%,
+    #fbf36d 0,
+    #fbf36d
+  );
+  color: #454b4e;
+  width: 60%;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 25px;
+}
+
+.text-secondary {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.btn {
+  margin: 10px 0px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.btn-delete,
+.btn-confirmation {
+  background-color: red;
+  color: #fff;
+}
+
+.btn-done,
+.btn-cancel {
+  background-color: #fbf36d;
+  color: #000;
+}
+
+.text-green {
+  background: linear-gradient(
+    180deg,
+    transparent,
+    transparent 50%,
+    rgb(79 192 141 / 50%) 0,
+    rgb(79 192 141 / 50%)
+  );
+  width: 60%;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 25px;
+}
+
+.text-warning {
+  text-align: center;
+  color: red;
+  margin-top: 5px;
+  font-style: italic;
+  font-size: 20px;
+  display: none;
+}
+
+.text-warning.active {
+  display: block !important;
+}
+
+.modal-fab {
+  position: fixed;
+  right: 30px;
+  cursor: pointer;
+  bottom: 30px;
+  font-size: 35px;
+  text-align: center;
+  line-height: 70px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #f0ad4e;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.close-modal {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.book-form {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: none;
+}
+
+.alert-modal {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: none;
+}
+
+.card {
+  margin: 200px auto;
+  background-color: #fff;
+  width: 30%;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.active-modal {
+  display: block;
+}
+
+.book-form form {
+  margin: 50px auto;
+  background-color: #fff;
+  width: 50%;
+  border-radius: 8px;
+  padding: 10px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Rak Buku</title>
+  </head>
+  <body>
+    <section class="book-form">
+      <form>
+        <div class="modal-header">
+          <p class="text-secondary">Tambahkan Buku</p>
+          <span class="text-secondary close-modal">X</span>
+        </div>
+        <hr />
+        <p class="text-warning">Semua input harus terisi !!!</p>
+        <p class="text-secondary">Judul Buku</p>
+        <input
+          type="text"
+          class="input-text"
+          placeholder="Judul Buku"
+          id="book-title"
+          required
+          autocomplete="off"
+        />
+        <p class="text-secondary">Penulis Buku</p>
+        <input
+          type="text"
+          class="input-text"
+          placeholder="Penulis Buku"
+          id="book-author"
+          required
+          autocomplete="off"
+        />
+        <p class="text-secondary">Tahun Terbit</p>
+        <input
+          type="number"
+          class="input-text"
+          placeholder="Tahun Terbit"
+          id="book-year"
+          required
+          autocomplete="off"
+        />
+        <div>
+          <span class="text-secondary">Sudah Dibaca</span>
+          <input type="checkbox" name="isCompleted" id="isCompleted" />
+        </div>
+        <button type="submit" class="btn btn-done" id="btn-save">
+          Tambahkan Buku
+        </button>
+      </form>
+    </section>
+    <section class="alert-modal">
+      <div class="card">
+        <p class="text-secondary">Apakah Anda Yakin?</p>
+        <button class="btn btn-cancel">Batal</button>
+        <button class="btn btn-confirmation">Hapus</button>
+      </div>
+    </section>
+    <main class="container">
+      <img class="img-responsive" src="./images/hero.svg" alt="reading time" />
+      <input
+        type="text"
+        name="keyword"
+        placeholder="Cari Buku"
+        class="input-text keyword"
+        autocomplete="off"
+      />
+      <div class="row book-container">
+        <section>
+          <div class="box">
+            <h4 class="text-green">Belum Selesai Dibaca</h4>
+          </div>
+          <div class="unfinished-book"></div>
+        </section>
+
+        <section>
+          <div class="box">
+            <h4 class="text-green">Sudah Selesai Dibaca</h4>
+          </div>
+          <div class="finished-book"></div>
+        </section>
+      </div>
+      <div class="modal-fab">+</div>
+    </main>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

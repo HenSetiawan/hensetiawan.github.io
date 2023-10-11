@@ -22,16 +22,16 @@ Project CSS Challenge
    <br/>
 
 5. [https://hensetiawan.github.io/05-TheCoctailsDB]  
-   **Login Page**  
+   **cocktail DB API**  
    Conctail information
    <br/>
 
 6. [https://hensetiawan.github.io/06-Whack-A-Mole]  
-   **Login Page**  
+   **Whack A Mole Game**  
    Whack A Mole
    <br/>
 
 7. [https://hensetiawan.github.io/07-Drum-Kit-Js]  
-   **Login Page**  
+   **Simple Drum Kit With Keyboard**  
    Drum Kit Js
    <br/>

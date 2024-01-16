@@ -35,3 +35,13 @@ Project CSS Challenge
    **Simple Drum Kit With Keyboard**  
    Drum Kit Js
    <br/>
+
+8. [https://hensetiawan.github.io/08-local-storage]  
+   **Simple CRUD with local storage**  
+   local storage
+   <br/>
+
+9. [https://hensetiawan.github.io/09-wpu-portofolio]  
+   **Simple tailwind portofolio from WPU*  
+   Tailwind WPU
+   <br/>
